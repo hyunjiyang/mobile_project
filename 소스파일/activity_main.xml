@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/item01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:tag="01">
+
+        <TextView
+            android:id="@+id/menu1"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/menu1"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:adjustViewBounds="true"
+            android:gravity="center"
+            android:paddingRight="5sp"
+            android:textStyle="italic"
+            android:text=" Blue Test " />
+
+        <TextView
+            android:id="@+id/menu2"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:adjustViewBounds="true"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:background="@drawable/menu2"
+            android:paddingRight="5sp"
+            android:text="Your Today" />
+
+        <TextView
+            android:id="@+id/menu3"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:background="@drawable/menu3"
+            android:adjustViewBounds="true"
+            android:gravity="center"
+            android:paddingRight="5sp"
+            android:text="Corona Blue" />
+
+
+        <TextView
+            android:id="@+id/menu4"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:background="@drawable/menu4"
+            android:adjustViewBounds="true"
+            android:gravity="center"
+            android:paddingRight="5sp"
+            android:text="COVID-19" />
+
+    </LinearLayout>
+
+</LinearLayout>

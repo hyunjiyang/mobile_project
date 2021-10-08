@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Self Blue Test"
+        android:gravity="center"
+        android:textColor="#005397"
+        android:textStyle="italic"
+        android:padding="50dp"
+        android:textSize="37dp"/>
+
+    <CheckBox
+        android:id="@+id/one"
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="하루 중 대부분 우울한 기분이 2주 이상 지속된다" />
+
+    <CheckBox
+        android:id="@+id/two"
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="어떤 일에도 흥미나 즐거움이 뚜렷하게 저하된다" />
+    <CheckBox
+        android:id="@+id/three"
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="특별한 이유 없이 체중이 감소하거나 증가했다" />
+
+    <CheckBox
+        android:id="@+id/four"
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="불면증이나 과다 수면 증상이 나타난다" />
+
+    <CheckBox
+        android:id="@+id/five"
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="지나치게 초조한 기분이나 무기력한 감정을 느낀다." />
+    <CheckBox
+        android:id="@+id/six"
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="피로감과 활력 상실을 느낀다" />
+
+    <CheckBox
+        android:id="@+id/seven"
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="죽음이나 자살에 대한 생각이 반복적으로 든다" />
+    <CheckBox
+        android:id="@+id/eight"
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="죄책감과 무가치감을 느낀다" />
+
+    <CheckBox
+        android:id="@+id/nine"
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="사고력이나 집중력 저하, 우유부단한 감정이 지속된다" />
+
+
+    <Button
+        android:id="@+id/OK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="제출" />
+
+</LinearLayout>

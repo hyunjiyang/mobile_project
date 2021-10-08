@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color4"
+    android:orientation="vertical"
+    tools:context=".CovidActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COVID-19"
+        android:gravity="center"
+        android:textColor="#C90000"
+        android:textStyle="italic"
+        android:padding="50dp"
+        android:textSize="37dp"/>
+
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="확진자수"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="[ 실시간 코로나 뉴스 ]"
+        android:textColor="#005397"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textSize="22dp"/>
+
+    <TextView
+        android:id="@+id/news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="뉴스"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textSize="15dp"/>
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="[ 코로나 예방 ]"
+        android:textColor="#005397"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textSize="22dp"/>
+
+    <TextView
+        android:id="@+id/corona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/corona"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:textSize="15dp"/>
+    <TextView
+        android:id="@+id/corona2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/corona2"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:textSize="15dp"/>
+    <TextView
+        android:id="@+id/corona3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:text="@string/corona3"
+        android:textSize="15dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <ImageButton
+            android:id="@+id/start"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textSize="5pt"
+            android:src="@drawable/im3"
+            android:layout_margin="20dp"
+            android:text="연결" />
+        <ImageButton
+            android:id="@+id/play"
+            android:layout_width="60dp"
+            android:layout_margin="20dp"
+            android:layout_toRightOf="@id/start"
+            android:layout_height="60dp"
+            android:textSize="5pt"
+            android:src="@drawable/im1"
+            android:text="음악 재생" />
+        <ImageButton
+            android:id="@+id/pause"
+            android:layout_width="50dp"
+            android:layout_margin="20dp"
+            android:layout_toRightOf="@id/play"
+            android:layout_height="50dp"
+            android:textSize="5pt"
+            android:src="@drawable/im2"
+            android:text="일시정지" />
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>
